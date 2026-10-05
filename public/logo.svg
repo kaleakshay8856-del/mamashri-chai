@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="96" fill="#2A0D04" stroke="#C4720A" stroke-width="4"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="rgba(196,114,10,0.3)" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <!-- Tea cup -->
+  <path d="M62 90 Q59 118 66 126 Q82 132 100 132 Q118 132 134 126 Q141 118 138 90 Z" fill="#C4720A"/>
+  <ellipse cx="100" cy="90" rx="38" ry="7" fill="#E8960F"/>
+  <ellipse cx="100" cy="90" rx="34" ry="5.5" fill="#7A3C0E"/>
+  <path d="M134 100 Q148 100 148 112 Q148 124 134 124" fill="none" stroke="#A0520C" stroke-width="7" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="100" y="158" font-family="serif" font-size="13" font-weight="bold" fill="#F5C464" text-anchor="middle">मामाश्री</text>
+  <text x="100" y="173" font-family="serif" font-size="10" fill="#C4720A" text-anchor="middle">CHAHAVALE</text>
+  <!-- Steam -->
+  <path d="M86 80 Q89 72 86 64" fill="none" stroke="rgba(253,246,236,0.5)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100 78 Q103 70 100 62" fill="none" stroke="rgba(253,246,236,0.4)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M114 80 Q117 72 114 64" fill="none" stroke="rgba(253,246,236,0.3)" stroke-width="2" stroke-linecap="round"/>
+</svg>

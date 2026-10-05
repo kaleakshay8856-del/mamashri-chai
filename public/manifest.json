@@ -1,0 +1,25 @@
+﻿{
+  "name": "मामाश्री चहावाले | Jaggery Tea Premix",
+  "short_name": "मामाश्री",
+  "description": "दर्जेदार Jaggery Tea Premix — Sambhajinagar, Maharashtra",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2A0D04",
+  "theme_color": "#2A0D04",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
+
