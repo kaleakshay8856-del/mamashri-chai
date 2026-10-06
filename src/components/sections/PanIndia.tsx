@@ -237,7 +237,7 @@ export default function PanIndia() {
               className="font-devanagari text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-snug"
               style={{ fontFamily: "var(--font-devanagari)", color: "var(--color-chai-brown)" }}
             >
-              संभाजीनगरातून{" "}
+              छत्रपती संभाजीनगरातून{" "}
               <span style={{ color: "var(--color-jaggery)" }}>संपूर्ण भारतात!</span>
             </motion.h2>
 
