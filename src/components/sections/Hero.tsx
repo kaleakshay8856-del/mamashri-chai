@@ -121,7 +121,7 @@ export default function Hero() {
       {/* Background */}
       <div className="absolute inset-0 warli-bg opacity-40 pointer-events-none" aria-hidden="true" />
       <div
-        className="absolute top-1/2 left-1/3 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vw] max-w-2xl rounded-full pointer-events-none"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vw] max-w-2xl rounded-full pointer-events-none"
         style={{ background: "radial-gradient(ellipse, rgba(196,114,10,0.10) 0%, transparent 65%)" }}
         aria-hidden="true"
       />
@@ -133,11 +133,11 @@ export default function Hero() {
       />
 
       {/* ── Main content ── */}
-      <div className="relative z-10 w-full max-w-[1400px] mx-auto px-5 sm:px-8 lg:px-12 pt-20 pb-16 lg:pb-10">
+      <div className="relative z-10 w-full max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 pt-20 pb-16 lg:pb-10">
         <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-12">
 
           {/* TEXT COLUMN — centered on all screens below lg */}
-          <div className="flex flex-col items-center text-center lg:items-start lg:text-left lg:flex-1">
+          <div className="flex flex-col items-center text-center lg:items-start lg:text-left lg:flex-1 w-full">
 
             {/* Badge */}
             <motion.div
@@ -239,7 +239,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.8 }}
-              className="font-devanagari text-sm sm:text-base leading-relaxed mb-4 max-w-xs sm:max-w-sm"
+              className="font-devanagari text-sm sm:text-base leading-relaxed mb-4 max-w-[90%] sm:max-w-sm"
               style={{ fontFamily: "var(--font-devanagari)", color: "rgba(253,246,236,0.72)" }}
             >
               झटपट तयार होणारी, दूध न फाटता रुचकर गुळाची चहा.
