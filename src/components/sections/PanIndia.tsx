@@ -226,7 +226,7 @@ export default function PanIndia() {
                 color: "var(--color-jaggery)",
                 background: "rgba(196,114,10,0.10)",
                 border: "1px solid rgba(196,114,10,0.25)",
-              }}
+              }} 
             >
               ✦ आमचा पुरवठा
             </motion.span>
