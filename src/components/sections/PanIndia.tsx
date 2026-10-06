@@ -207,9 +207,50 @@ export default function PanIndia() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={viewportOnce}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="flex justify-center"
+            className="flex flex-col items-center gap-6 justify-center"
           >
             <IndiaMapSVG />
+
+            {/* Sambhajinagar cartographic poster */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+              className="w-full max-w-xs sm:max-w-sm"
+            >
+              <div
+                className="relative rounded-2xl overflow-hidden"
+                style={{
+                  border: "1.5px solid rgba(196,114,10,0.30)",
+                  boxShadow: "0 8px 32px rgba(61,26,10,0.14)",
+                }}
+              >
+                {/* Label above image */}
+                <div
+                  className="flex items-center gap-2 px-3 py-2"
+                  style={{ background: "rgba(61,26,10,0.85)", backdropFilter: "blur(4px)" }}
+                >
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--color-jaggery-pale)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+                  </svg>
+                  <span className="text-[11px] font-bold tracking-widest uppercase" style={{ color: "var(--color-jaggery-pale)" }}>
+                    Sambhajinagar, Maharashtra
+                  </span>
+                </div>
+                {/* Map image */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/sambhajinagar-map.png"
+                  alt="Chhatrapati Sambhajinagar Cartographic Poster — our home city"
+                  className="w-full h-auto block"
+                  loading="lazy"
+                />
+              </div>
+              <p className="text-center text-[10px] mt-2 font-medium" style={{ color: "var(--color-text-muted)" }}>
+                छत्रपती संभाजीनगर — आमचे शहर, आमची ओळख
+              </p>
+            </motion.div>
           </motion.div>
 
           {/* Text */}
